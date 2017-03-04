@@ -16,13 +16,20 @@
 title: Alberto's log
 email: alberto.bravi@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Web Developer, Open Source Enthusiast
+  Hello, I’m Alberto. I’m a web developer living in Rome, Italy. I am a fan of web development, programming, and technology.
+  I’m also interested in innovation and i love Open Source.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://albertobravi.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: albertobravi
 github_username:  albertobravi
+linkedin_username:  albertobravi
 
 google_analytics: UA-38774212-1
+
+github_repositories:
+  - tropo-webapi-php-oop
+  - laravel-crud-elasticsearch
+  - symfony-crud-elasticsearch
 
 # Build settings
 markdown: kramdown

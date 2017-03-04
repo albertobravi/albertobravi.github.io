@@ -7,16 +7,36 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
+          <li class="nav-header">Open Source</li>
+
+          {% for github_repository in site.github_repositories %}
+            <li>
+              <a href="https://github.com/{{site.github_username}}/{{github_repository}}"
+                 target="_blank" title="{{github_repository}}">
+                {{github_repository}}
+              </a>
+            </li>
+          {% endfor %}
+          <li>
+            <a href="https://github.com/{{site.github_username}}?tab=repositories"
+               target="_blank" title="Github repositories">
+                <small>more...</small>
+            </a>
+          </li>
+
+          <!--
           <li>
             {% if site.author %}
               {{ site.author | escape }}
             {% else %}
               {{ site.title | escape }}
             {% endif %}
-            </li>
-            {% if site.email %}
+          </li>
+
+          {% if site.email %}
             <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
+          {% endif %}
+          -->
         </ul>
       </div>
 
@@ -25,6 +45,12 @@
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.linkedin_username %}
+          <li>
+            {% include icon-linkedin.html username=site.linkedin_username %}
           </li>
           {% endif %}
 
