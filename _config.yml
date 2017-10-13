@@ -16,8 +16,7 @@
 title: Alberto's log
 email: alberto.bravi@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hello, I’m Alberto. I’m a web developer living in Rome, Italy. I am a fan of web development, programming, and technology.
-  I’m also interested in innovation and i love Open Source.
+  Hello, I’m Alberto. I’m a Web Developer living in Rome, Italy. I love Open Source, mostly PHP and Node.js, but I'm curious about all the technology.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://albertobravi.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: albertobravi
