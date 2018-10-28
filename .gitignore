@@ -1,6 +1,8 @@
-.DS_Store
-.idea
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
 
-_site
-.sass-cache
-.jekyll-metadata
+# Build directory
+/public
+.DS_Store
